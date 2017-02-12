@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SpinerPopUp</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+</resources>

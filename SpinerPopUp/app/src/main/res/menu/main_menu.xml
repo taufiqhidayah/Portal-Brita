@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mGuru"
+        android:title="Guru"/>
+    <item android:id="@+id/mPedagang"
+        android:title="Pedagang"/>
+    <item android:id="@+id/mPetani"
+        android:title="Petani"/>
+    <item android:id="@+id/mBoss"
+        android:title="Boss"/>
+    <item android:id="@+id/mDpr"
+        android:title="DPR"/>
+</menu>

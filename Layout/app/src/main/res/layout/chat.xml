@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/whatsapp"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHATT"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple chat Design"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <Button
+
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Sign in With"
+            android:drawableRight="@drawable/facebook"
+            android:background="@drawable/fb_border"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Sign in With"
+            android:drawableRight="@drawable/facebook"
+            android:background="#ff0000"
+            />
+    </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="OR"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Username"
+    android:background="#d9d9d9"
+    android:drawableLeft="@mipmap/ic_profil"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:background="#d9d9d9"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        />
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in With"
+        android:drawableRight="@drawable/facebook"
+        android:background="#ff0000"
+        />
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.imastudio.layout.MainActivity">
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="btn 1"
+        android:id="@+id/bt1"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="btn 2"
+        android:id="@+id/bt2"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@+id/bt1"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="btn 3"
+        android:id="@+id/bt3"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@+id/bt2"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="btn43"
+        android:id="@+id/bt4"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/bt1"
+        android:layout_marginTop="10dp"
+
+        />
+    <!--komentar-->
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+         />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/bt5"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

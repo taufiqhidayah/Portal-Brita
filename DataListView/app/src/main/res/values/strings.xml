@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DataListView</string>
+    <string name="title_activity_">Activity</string>
+    <string name="title_activity_custom">CustomActivity</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+</resources>
